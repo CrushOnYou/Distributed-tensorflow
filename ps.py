@@ -29,7 +29,8 @@ tf.reset_default_graph()
 
 #定义ip和端口 
 strps_hosts="localhost:1681"
-strworker_hosts="localhost:1682,localhost:1683"
+#strworker_hosts="localhost:1682,localhost:1683" #or other ip address
+strworker_hosts="localhost:1682,10.202.12.37:1683"
 
 #定义角色名称
 strjob_name = "ps"

@@ -28,7 +28,9 @@ train_Y = 2 * train_X + np.random.randn(*train_X.shape) * 0.3 # y=2x，但是加
 tf.reset_default_graph()
 
 strps_hosts="localhost:1681"#,localhost:2222"
-strworker_hosts="localhost:1682,localhost:1683"#,192.168.1.183:1680"#,localhost:2224"
+#strworker_hosts="localhost:1682,localhost:1683"#,192.168.1.183:1680"#,localhost:2224"
+strworker_hosts="localhost:1682,10.202.12.37:1683"
+
 strjob_name = "worker"
 task_index = 0
 
